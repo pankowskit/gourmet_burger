@@ -1,0 +1,7 @@
+//@include aoa-bg-series($section__classes,$section__images);
+
+.comingsoon,.error,.privacy{
+    &-s1{
+        background-blend-mode: multiply;
+    }
+}
