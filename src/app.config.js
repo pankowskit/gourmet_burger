@@ -33,7 +33,13 @@ const PATHS = [
     {menuItem:false,menuName:"",path:"*",component:<Error errorData={ERRORS['404']}/>}
 ];
 
+const APP_LINKS = {
+    messages: "",
+    users: ""
+};
+
 export {
+    APP_LINKS,
     ERRORS,
     PATHS
 }
