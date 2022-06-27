@@ -1,6 +1,7 @@
 import "./sass/styles.scss";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Footer from "./components/footer";
+import Navigation from "./components/navigation";
 
 import {PATHS} from "./app.config";
 
@@ -14,6 +15,7 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
+                <Navigation menuItems={PATHS}/>
                 <Routes>
                     {routesContent}
                 </Routes>
