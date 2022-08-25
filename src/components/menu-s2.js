@@ -7,14 +7,14 @@ import Table from "../../node_modules/react-bootstrap/Table";
 class MenuS2 extends Component{
     render(){
         return(    
-            <Container fluid className="menu-s2 d-flex minh-50vh bg-white align-items-center py-5">
+            <Container fluid className="menu-s2 d-flex minh-50vh bg-white align-items-center py-5 border-top border-dark">
                 <Row className="mx-0 w-100">
                     <Col xs={12} md={6} className="mx-auto minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center">
-                            <h2 className="dispaly-6 fw-bold text-secondary">
+                            <h2 className="dispaly-6 fw-bold text-dark">
                                 Lorem ipsum
                             </h2>
-                            <p className="text-muted">
+                            <p className="text-dark">
                                 Duis aute irure dolor in reprehenderit in voluptate velit esse 
                                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit 
@@ -22,7 +22,7 @@ class MenuS2 extends Component{
                             </p>
                             <Table hover striped>
                                 <thead>
-                                    <tr className="text-secondary">
+                                    <tr className="text-dark">
                                         <th className="w-25">Name</th>
                                         <th className="w-50">Description</th>
                                         <th className="w-25">Price</th>

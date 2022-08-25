@@ -1,13 +1,37 @@
-$prefix: "../img/";
+$prefix: "../../../public/img/";
 $footer__height: 53px;
+$img__about: 
+    $prefix+"about-s1.jpg",
+    $prefix+"about-s2.jpg",
+    $prefix+"about-s3.jpg";
+$img__basket: $prefix+"basket-s1.jpg";
 $img__comingsoon: $prefix+"comingsoon.jpg"; 
+$img__contact: 
+    $prefix+"contact-s1.jpg",
+    $prefix+"contact-s2.jpg";
 $img__error: $prefix+"error.jpg"; 
+$img__index: $prefix+"index-s1.jpg";
+$img__menu: 
+    $prefix+"menu-s1.jpg",
+    $prefix+"menu-s2.jpg",
+    $prefix+"menu-s3.jpg";
 $img__privacy: $prefix+"privacy.jpg"; 
 $section__classes:
+    "about",
+    "basket",
     "comingsoon",
+    "contact",
     "error",
+    "index",
+    "menu",
     "privacy";
 $section__images:
+    $img__about,
+    $img__basket,
     $img__comingsoon,
+    $img__contact,
     $img__error,
+    $img__index,
+    $img__menu,
     $img__privacy;
+$text__shadow: 1px 1px 3px #333;

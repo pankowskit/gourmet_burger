@@ -16,13 +16,13 @@ class ContactData extends Component{
             </Link>;
         }
         return(        
-            <Container fluid className={"contact-data align-items-center p-0 d-flex minh-50vh "+this.props.classExt}>
+            <Container fluid className={"contact-s1 align-items-center p-0 d-flex minh-50vh bg-dark "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100 pt-5">
                     <Col xs={10} md={6} className="mx-auto text-dark p-0">
                     </Col>
-                    <Col xs={10} md={6} className="mx-auto text-secondary p-0 d-flex align-items-center">
+                    <Col xs={10} md={6} className="mx-auto text-dark p-0 d-flex align-items-center">
                         <div className="p-5">
-                            <h1 className="display-4 fw-bold font-logo text-dark-gray">
+                            <h1 className="display-4 fw-bold font-logo text-dark">
                                 Contact us
                             </h1>
                             <p className="initialism">
